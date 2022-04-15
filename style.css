@@ -1,0 +1,121 @@
+/* Global */
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: #fff;
+    color: #333333;
+}
+.container {
+    width: 80%;
+    /* overflow: hidden; */
+}
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #333333;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+/* header */
+header {
+    width: 100%;
+}
+a {
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase; 
+}
+nav a {
+    margin-left: 77px;
+    margin-top: 40px;
+}
+.main-wrapper {
+    margin-top: 200px;
+}
+.img-wrapper {
+    margin-right: 117px;
+}
+img {
+    max-width: 540px;
+}
+h1 {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+}
+.main-text {
+    margin-top: 36px;
+    margin-bottom: 88px;
+}
+section a {
+    background-color: #333333;
+    color: #fff;
+    padding: 24px 43px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+section a:hover {
+    transition: all 0.3s ease;
+    background-color: #808080;
+}
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color:  #BDBDBD;
+    margin-top: 308px;
+    padding-bottom: 24px;
+}
+@media only screen and (max-width: 964px){
+    .flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .flex img {
+        max-width: 100%;
+    }
+    .img-wrapper {
+        margin: auto;
+        margin-bottom: 64px;
+
+    }
+    .text-werapper {
+        margin: auto;
+    }
+    body {
+        width: 80%;
+    }
+    .main {
+        padding-bottom: 40px;
+        overflow: hidden;
+    }
+    .main a {
+        padding: 15px;
+        font-size: 15px
+    }
+}
+
